@@ -4,7 +4,7 @@ import Swal from 'sweetalert2';
 import { useNavigate } from 'react-router-dom';
 
 const Signup = () => {
-
+ 
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: '',
